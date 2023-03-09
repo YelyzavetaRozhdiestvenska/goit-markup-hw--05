@@ -774,6 +774,13 @@ footer .socialmedia_link:focus {
     background-color: rgba(231, 233, 252, 1);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: background-color var(--transition-duration-and-transition-timing-function), border var(--transition-duration-and-transition-timing-function), fill var(--transition-duration-and-transition-timing-function);
 }
-
+.modal-close-btn:hover, 
+.modal-close-btn:focus {
+    background-color: rgba(64, 75, 191, 1);
+    border: none;
+    fill: #FFFFFF;
+    
+}
 
